@@ -12,6 +12,7 @@ This is a simple URL shortener service that allows users to convert long URLs in
 - [Rate Limiting](#rate-limiting)
 - [Configuration](#configuration)
 - [Supported Scenarios](#scenarios)
+- [Screenshots](#screenshots)
 - [License](#license)
 
 ## Getting Started
@@ -102,6 +103,32 @@ The service uses environment variables for configuration. You can customize the 
 - When a GET request is made with a shortened URL that does not exist in the database, the service raises an error indicating that the URL is not found in the database.
 
 We welcome contributions! If you want to improve this URL shortener or fix issues, feel free to submit pull requests. Please make sure to follow the code of conduct and contribute in a respectful and friendly manner.
+
+## Screenshots
+
+<!-- Create Short URL -->
+![Screenshot 1](demoScreenshots/CreateShortURL.png)
+
+<!-- Create Custom Short URL -->
+![Screenshot 2](demoScreenshots/CustomCreateShortURL.png)
+
+<!-- Invalid Domain -->
+![Screenshot 3](demoScreenshots/InvalidDomain.png)
+
+<!-- Invalid URL -->
+![Screenshot 4](demoScreenshots/InvalidURL.png)
+
+<!-- Rate Limit Exceeded -->
+![Screenshot 5](demoScreenshots/RateLimitExceeded.png)
+
+<!-- Retrieve Short URL -->
+![Screenshot 6](demoScreenshots/RetriveShortURL.png)
+
+<!-- Short URL Not Found -->
+![Screenshot 7](demoScreenshots/ShortURLNotFound.png)
+
+<!-- Sample Logs -->
+![Screenshot 8](demoScreenshots/Logs.png)
 
 ## License
 
