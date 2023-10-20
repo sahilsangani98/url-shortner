@@ -13,6 +13,7 @@ This is a simple URL shortener service that allows users to convert long URLs in
 - [Configuration](#configuration)
 - [Supported Scenarios](#scenarios)
 - [Screenshots](#screenshots)
+- [Reference](#reference)
 - [License](#license)
 
 ## Getting Started
@@ -88,21 +89,19 @@ The service uses environment variables for configuration. You can customize the 
 
 ## Supported Scenarios
 
-1. Shortening URLs
+# 1. Shortening URLs
 1.1 POST Request:
 - When a POST request is made with a URL to be shortened, the service responds with a JSON object containing the shortened URL and its associated rate limit.
 
 1.2 POST Request with Custom Short Code and Expiry:
 - When a POST request is made with a URL, a custom short code, and an expiry (retention time in the database), the service responds with a JSON object containing the shortened URL, its rate limit, and the custom short code.
 
-2. Redirecting Shortened URLs
+# 2. Redirecting Shortened URLs
 2.1 GET Request with Short URL:
 - When a GET request is made with a shortened URL, the service redirects the request to the original URL if it exists in the database.
 
 2.2 GET Request with Non-Existent Short URL:
 - When a GET request is made with a shortened URL that does not exist in the database, the service raises an error indicating that the URL is not found in the database.
-
-We welcome contributions! If you want to improve this URL shortener or fix issues, feel free to submit pull requests. Please make sure to follow the code of conduct and contribute in a respectful and friendly manner.
 
 ## Screenshots
 
@@ -129,6 +128,9 @@ We welcome contributions! If you want to improve this URL shortener or fix issue
 
 <!-- Sample Logs -->
 ![Screenshot 8](demoScreenshots/Logs.png)
+
+## Reference
+[Akhil Sharma](https://www.linkedin.com/in/akhilsails/)
 
 ## License
 
